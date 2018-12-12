@@ -1,0 +1,231 @@
+
+html {
+  box-sizing: border-box;
+}
+
+  box-sizing: inherit;
+}
+
+body {
+
+    background-position: center;
+   background-color: orangered
+
+}
+
+
+ font-family: "Valera Round", arial, sans-serif;
+    color: green;
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red; 
+}
+
+h1 {
+
+    font-size: 80px;
+    line-height: 80px;
+    float: left;
+}
+
+h2 {
+    font-size: 44px;
+    margin-bottom: 30px;
+    background-color: darkred
+}
+
+p {
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+
+#topSection {
+color: red
+background-color: red
+
+}
+
+#topSection ul {
+    float: right;
+
+}
+#topSection ul li {
+    float: right;
+    line-height: 100px;
+}
+#topSection ul li a {
+    color: red;
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+#topSection ul li a:hover {
+    background-color: black;
+    color: red;
+    
+}
+
+#middle {
+    color: red;
+    background-image: url(../images/freddy.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    padding-top: 500px;
+    padding-bottom: 50px;
+}
+
+#middle h2 i {
+    font-size: 15px;
+    margin: 0 20px;
+    vertical-align: middle;
+}
+
+
+#about {
+    padding: 50px 0;
+}
+
+
+#team {
+    background-color: black;
+    color: red;
+    padding: 50px 0;
+}
+
+#team .inside {
+    padding: 0 10%;
+}
+
+#team figure img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+#team h3 {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+#team h3 em {
+    font-size: 16px;
+    font-weight: 100;
+    display: block;
+    font-style: italic;
+}
+
+#team p {
+    margin: 60px 0 30px;
+}
+
+#team p a:hover {
+    color: red;
+    background-color: green;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+
+
+#footer {
+    font-size: 14px;
+    background-color: maroon;
+    color: black;
+    padding-bottom: 20px;
+}
+
+#footer a {
+    color: black;
+}
+
+#footer a:hover {
+    color: red;
+}
+
+#footer ul {
+    float: right;
+}
+#footer ul li {
+    float: left;
+    line-height: 80px;
+}
+
+#footer hr {
+    clear: both;
+
+}
+
+#footer ul#footerNav {
+    float: left;
+}
+
+#footer ul#footerNav li {
+    margin-right: 20px;
+}
+
+#socialNav li a {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#socialNav li a:hover {
+    border: 1px solid red;
+}
+
+#footer ul#tandc li {;
+    line-height: 25px;
+}
+
+
+#footer ul#tandc li:after {
+    content: "|";
+    font-size: 12px;
+    margin: 0 15px;
+}
+
+#footer ul#tandc li.last:after {
+    content: " ";
+    margin: 0;
+}
+
+
+#footer ul#tandc li a.last {
+    margin-right: 0;
+}
+
+
+.inside {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.group:before,
+.group:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+    }
+
+.group:after {
+    clear: both;
+    }
+
+}
